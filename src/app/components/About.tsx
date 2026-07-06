@@ -1,12 +1,8 @@
 import { useEffect, useRef } from 'react';
 import { Lightbulb, Target, Zap, Users } from 'lucide-react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "./ui/dialog";
-<<<<<<< HEAD
 import founderImage from "../../assets/founder.jpg";
 import cofounderImage from "../../assets/cofounder.jpg";
-=======
-import founderImage from "../../assets/MY-PIC.png";
->>>>>>> 878f524adefdbbe92e0929eda1fa137815a74cc6
 
 export function About() {
   const aboutRef = useRef<HTMLDivElement>(null);
@@ -81,16 +77,11 @@ export function About() {
           ))}
         </div>
 
-<<<<<<< HEAD
         {/* Founders' Blog Button */}
-=======
-        {/* Founder's Blog Button */}
->>>>>>> 878f524adefdbbe92e0929eda1fa137815a74cc6
         <div className="mt-16 text-center animate-on-scroll opacity-0">
           <Dialog>
             <DialogTrigger asChild>
               <button className="bg-[#EF4444] text-white px-8 py-3 rounded-full font-['Syne'] font-semibold shadow-lg hover:shadow-xl hover:bg-[#D93838] transition-all duration-300">
-<<<<<<< HEAD
                 Founders' Blog
               </button>
             </DialogTrigger>
@@ -162,60 +153,22 @@ export function About() {
                         <div className="text-[10px] font-semibold text-[#333333] uppercase">Growth</div>
                       </div>
                     </div>
-=======
-                Founder's Blog
-              </button>
-            </DialogTrigger>
-
-            <DialogContent className="sm:max-w-[900px] max-h-[95vh] overflow-y-auto p-8 md:p-12 rounded-[2rem] border-0 shadow-2xl bg-white">
-              <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-start">
-                
-                {/* ── LEFT SIDE: Founder Picture & Info ── */}
-                <div className="w-full md:w-5/12 lg:w-1/3 flex flex-col items-center md:items-start flex-shrink-0">
-                  <div className="w-full max-w-[280px] aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border-4 border-[#EF4444]/10 mb-6">
-                    <img
-                      src={founderImage}
-                      alt="Chede Nikhil Raina"
-                      className="w-full h-full object-cover object-top"
-                    />
-                  </div>
-                  <div className="text-center md:text-left w-full">
-                    <h3 className="font-['Syne'] font-bold text-2xl text-[#333333] leading-tight">
-                      Chede Nikhil Raina
-                    </h3>
-                    <p className="text-[#EF4444] font-bold text-sm tracking-[0.2em] uppercase mt-2">
-                      Founder
-                    </p>
->>>>>>> 878f524adefdbbe92e0929eda1fa137815a74cc6
                   </div>
                 </div>
 
                 {/* ── RIGHT SIDE: Blog Content ── */}
-<<<<<<< HEAD
                 <div className="w-full lg:w-7/12 flex flex-col pt-2">
                   <DialogHeader className="mb-6">
                     <DialogTitle className="font-['Syne'] text-3xl font-bold text-[#333333] text-center lg:text-left">
                       Founders' Blog
-=======
-                <div className="w-full md:w-7/12 lg:w-2/3 flex flex-col pt-2">
-                  <DialogHeader className="mb-6">
-                    <DialogTitle className="font-['Syne'] text-3xl font-bold text-[#333333] text-center md:text-left">
-                      Founder's Blog
->>>>>>> 878f524adefdbbe92e0929eda1fa137815a74cc6
                     </DialogTitle>
                   </DialogHeader>
 
                   <div className="text-[#666666] leading-relaxed text-base space-y-5">
                     <p>
-<<<<<<< HEAD
                       As founders, we started this journey with a simple vision — to make promotion
                       easy, accessible, and effective for every business. We saw that many businesses
                       struggle to manage different services for design, content, and marketing. So, we
-=======
-                      As a founder, I started this journey with a simple vision — to make promotion
-                      easy, accessible, and effective for every business. I saw that many businesses
-                      struggle to manage different services for design, content, and marketing. So, I
->>>>>>> 878f524adefdbbe92e0929eda1fa137815a74cc6
                       wanted to create a place where everything comes together — simple, flexible, and
                       result-driven.
                     </p>
